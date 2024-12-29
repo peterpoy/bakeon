@@ -26,4 +26,5 @@ export default defineConfig({
 	experimental: {
 		svg: true,
 	},
+	site: 'https://peterpoy.github.io/',
 });
