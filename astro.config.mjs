@@ -27,4 +27,5 @@ export default defineConfig({
 		svg: true,
 	},
 	site: 'https://peterpoy.github.io/',
+	base: 'bakeon',
 });
