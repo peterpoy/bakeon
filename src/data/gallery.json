@@ -1,56 +1,56 @@
 [
 	{
 		"id": 1,
-		"title": "pexels-adrienn",
-		"image": "/src/assets/images/gallery/pexels-adrienn-638530-1537635.jpg",
-		"alt": "pexels-adrienn-638530-1537635"
+		"title": "Christmas at bake on!",
+		"image": "/src/assets/images/gallery/gallery-001.jpg",
+		"alt": "Christmas at bake on!"
 	},
 	{
 		"id": 2,
-		"title": "pexels-annija-mieze",
-		"image": "/src/assets/images/gallery/pexels-annija-mieze-427042079-15197931.jpg",
-		"alt": "pexels-annija-mieze-427042079-15197931"
+		"title": "Sitting Rudolph Cake",
+		"image": "/src/assets/images/gallery/gallery-002.jpg",
+		"alt": "Sitting Rudolph Cake"
 	},
 	{
 		"id": 3,
-		"title": "pexels-enginakyurt",
-		"image": "/src/assets/images/gallery/pexels-enginakyurt-1487511.jpg",
-		"alt": "pexels-enginakyurt-1487511"
+		"title": "X-mas Tree bear",
+		"image": "/src/assets/images/gallery/gallery-003.jpg",
+		"alt": "X-mas Tree bear"
 	},
 	{
 		"id": 4,
-		"title": "pexels-fariphotography",
-		"image": "/src/assets/images/gallery/pexels-fariphotography-905847.jpg",
-		"alt": "pexels-fariphotography-905847"
+		"title": "Espresso Machine",
+		"image": "/src/assets/images/gallery/gallery-004.jpg",
+		"alt": "Espresso Machine"
 	},
 	{
 		"id": 5,
-		"title": "pexels-narda-yescas",
-		"image": "/src/assets/images/gallery/pexels-narda-yescas-724842-1566837.jpg",
-		"alt": "pexels-narda-yescas-724842-1566837"
+		"title": "Cheese Cake!",
+		"image": "/src/assets/images/gallery/gallery-005.jpg",
+		"alt": "Cheese Cake!"
 	},
 	{
 		"id": 6,
-		"title": "pexels-pixabay",
-		"image": "/src/assets/images/gallery/pexels-pixabay-262978.jpg",
-		"alt": "pexels-pixabay-262978"
+		"title": "Mini Genoise with Cream Cheese Cake 🍰",
+		"image": "/src/assets/images/gallery/gallery-006.jpg",
+		"alt": "Mini Genoise with Cream Cheese Cake 🍰"
 	},
 	{
 		"id": 7,
-		"title": "pexels-rachel-claire",
-		"image": "/src/assets/images/gallery/pexels-rachel-claire-5531424.jpg",
-		"alt": "pexels-rachel-claire-5531424"
+		"title": "Cozy atmosphere!",
+		"image": "/src/assets/images/gallery/gallery-007.jpg",
+		"alt": "Cozy atmosphere!"
 	},
 	{
 		"id": 8,
-		"title": "pexels-vlah",
-		"image": "/src/assets/images/gallery/pexels-vlah-3084550.jpg",
-		"alt": "pexels-vlah-3084550"
+		"title": "Store front!",
+		"image": "/src/assets/images/gallery/gallery-008.jpg",
+		"alt": "Store front!"
 	},
 	{
 		"id": 9,
-		"title": "pexels-wildlittlethingsphoto",
-		"image": "/src/assets/images/gallery/pexels-wildlittlethingsphoto-696218.jpg",
-		"alt": "pexels-wildlittlethingsphoto-696218"
+		"title": "Views from inside!",
+		"image": "/src/assets/images/gallery/gallery-009.jpg",
+		"alt": "Views from inside!"
 	}
 ]

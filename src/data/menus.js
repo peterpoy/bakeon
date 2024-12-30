@@ -1,32 +1,35 @@
+const site_base = import.meta.env.BASE_URL;
+
+
 export const menuMain = [
     {
         name: "Home",
-        url: "/",
+        url: `${site_base}`,
         highlighted: false,
     },
     {
         name: "Menu",
-        url: "/menu",
+        url:  `${site_base}/menu`,
         highlighted: false,
     },
     {
         name: "About Us",
-        url: "/about-us",
+        url: `${site_base}/about-us`,
         highlighted: false,
     },
     {
         name: "Gallery",
-        url: "/gallery",
+        url: `${site_base}/gallery`,
         highlighted: false,
     },
     {
         name: "Contact",
-        url: "/contact",
+        url: `${site_base}/contact`,
         highlighted: false,
     },
     {
         name: "Book",
-        url: "/book",
+        url: `${site_base}/book`,
         highlighted: true,
     },
 ];
@@ -35,7 +38,7 @@ export const footerPrimary = [
     {
         title: "Navigatie",
         items: [
-            { name: "home", url: "/" },
+            { name: "home", url: `${site_base}` },
         ],
     },
 ];

@@ -1,67 +1,162 @@
 [
 	{
 		"id": 1,
-		"slug": "antipasti",
-		"prettyName": "Antipasti",
-		"description": "Start your meal with one of our delicious appetizers.",
+		"slug": "Bakery",
+		"prettyName": "Bakery",
+		"description": "At Bake On, we believe in the magic of freshly baked goods. Come by today and treat yourself to something delicious!",
 		"plates": [
 			{
-				"name": "Bruschetta",
-				"description": "Grilled bread topped with fresh tomatoes, garlic, basil, and olive oil.",
-				"price": 6.5
+				"name": "New York Roll",
+				"description": "Rolled croissant filled with flavored custard.",
+				"price": 9.95
 			},
 			{
-				"name": "Caprese",
-				"description": "Slices of mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
-				"price": 8.5
+				"name": "Almond Croissant",
+				"description": "Filled with sweet almond paste and topped with sliced almonds.",
+				"price": 6.95
 			},
 			{
-				"name": "Arancini",
-				"description": "Crispy risotto balls filled with cheese and served with marinara sauce.",
-				"price": 7.5
+				"name": "Basque Cheesecake",
+				"description": "Burnt top cheese cake topped with smooth mascarpone cream and fresh cream. Choose your flavor: Original, Chocolate, Cheddar cheese, Matcha.",
+				"price": 9.95
 			},
 			{
-				"name": "Prosciutto e Melone",
-				"description": "Cured ham paired with sweet cantaloupe.",
-				"price": 9
+				"name": "Crookie",
+				"description": "Croissant filled with cookie inside and topped with chocolate cookie.",
+				"price": 7.95
 			},
 			{
-				"name": "Antipasto Platter",
-				"description": "A selection of cured meats, cheeses, and marinated vegetables.",
-				"price": 12
+				"name": "Pistachio Croissant",
+				"description": "Stuffed with pistachio paste, cardamom, cinnamon.",
+				"price": 8.95
+			},
+			{
+				"name": "Mocha Croissant",
+				"description": "Stuffed with mocha paste.",
+				"price": 6.95
+			},
+			{
+				"name": "Chocolate Croissant",
+				"description": "Stuffed with chocolate paste.",
+				"price": 5.25
+			},
+			{
+				"name": "Flat Croissant",
+				"description": "Caramelized flat croissant.",
+				"price": 6.95
+			},
+			{
+				"name": "Banana Pudding",
+				"description": "Creamy sweet dessert made with layers of vanilla pudding, sliced bananas, wafers.",
+				"price": 8.25
+			},
+			{
+				"name": "Cream Cheese Cookie",
+				"description": "Choose from: matcha, tiramisu, red velvet, earl grey, and mugwort.",
+				"price": 5.50
+			},
+			{
+				"name": "Almond Croissants (3pcs)",
+				"description": "Filled with sweet almond paste and topped with sliced almonds.",
+				"price": 19.00
+			},
+			{
+				"name": "Baked Cookie",
+				"description": "Following offerings: Strawberry Oreo S'more, white chocolate, macadamia, strawberry powder, strawberry Oreo, marshmallow, freeze-dried strawberries.",
+				"price": 5.50
+			},
+			{
+				"name": "Honey Butter Croissant",
+				"description": "Buttery, flaky perfection meets the sweet warmth of honey.",
+				"price": 4.95
+			},
+			{
+				"name": "Honey Butter Croissant (3pcs)",
+				"description": "Buttery, flaky perfection meets the sweet warmth of honey. Times three.",
+				"price": 13.00
+			},
+			{
+				"name": "Assorted Croissants (6pcs)",
+				"description": "Honey butter croissant 2pcs, Almond croissants 2pcs, Mocha croissant 1pcs, Flat croissant 1pcs.",
+				"price": 34.00
+			},
+			{
+				"name": "Assorted New York roll (4pcs)",
+				"description": "Rolled croissant filled with flavored custard. The more the merrier!",
+				"price": 39.00
+			},
+			{
+				"name": "Tiramisu",
+				"description": "Rich coffee-soaked layers meet creamy mascarpone.",
+				"price": 17.00
+			},
+			{
+				"name": "Pistachio Tiramisu",
+				"description": "Savor the unique twist on a classic with our Pistachio Tiramisu, where creamy mascarpone and pistachio meet in a delightful, nutty fusion of flavors.",
+				"price": 18.00
+			},
+			{
+				"name": "Salt Bread",
+				"description": "",
+				"price": 4.75
+			},
+			{
+				"name": "Chocolate Chip Walnut Cookie",
+				"description": "Chocolate chip with walnut cookie.",
+				"price": 5.50
+			},
+			{
+				"name": "Lotus S'more Cookie",
+				"description": "Lotus biscoff with marshmallow",
+				"price": 5.50
+			},
+			{
+				"name": "Matcha Macadamia Cookie",
+				"description": "White Chocolate, macadamia, Matcha powder.",
+				"price": 5.50
+			},
+			{
+				"name": "Dubai Chocolate Pistachio Croissant",
+				"description": "Rich, smooth chocolate and crunchy pistachios come together in a flaky, buttery pastry for a decadent, unforgettable treat.",
+				"price": 12.95
 			}
 		]
 	},
 	{
 		"id": 2,
-		"slug": "insalate",
-		"prettyName": "Insalate",
-		"description": "Fresh and healthy salads made with seasonal ingredients.",
+		"slug": "Cream Latte",
+		"prettyName": "Cream Latte (Signature blend-iced only)",
+		"description": "Carefully crafted signature coffee blend, chilled to perfection, and topped with smooth, creamy finishes",
 		"plates": [
 			{
-				"name": "Caesar Salad",
-				"description": "Crisp romaine with parmesan, croutons, and Caesar dressing.",
-				"price": 7.5
+				"name": "Vanilla Cream Latte",
+				"description": "Latte with signature vanilla bean cream on top.",
+				"price": 8.25
 			},
 			{
-				"name": "Panzanella",
-				"description": "Tuscan bread salad with tomatoes, cucumbers, and basil.",
-				"price": 8
+				"name": "Mocha Cream Latte",
+				"description": "Latte with signature mocha cream on top.",
+				"price": 8.50
 			},
 			{
-				"name": "Insalata Mista",
-				"description": "Mixed greens with cherry tomatoes, cucumbers, and a light vinaigrette.",
-				"price": 6.5
+				"name": "Oreo Cream Latte",
+				"description": "Latte with signature Oreo cream on top.",
+				"price": 8.25
 			},
 			{
-				"name": "Caprese Salad",
-				"description": "Fresh mozzarella, tomatoes, and basil with balsamic reduction.",
-				"price": 9
+				"name": "Lotus Cream Latte",
+				"description": "Latte with signature lotus biscoff cream on top.",
+				"price": 8.25
 			},
 			{
-				"name": "Arugula Salad",
-				"description": "Peppery arugula with shaved parmesan and lemon dressing.",
-				"price": 7
+				"name": "Berry Cloud Cream Latte",
+				"description": "Latte with home-made strawberry purée and strawberry cream on top.",
+				"price": 8.75
+			},
+			{
+				"name": "Pistachio Cream Latte",
+				"description": "Latte with pistachio cream on top.",
+				"price": 9.75
 			}
 		]
 	},
