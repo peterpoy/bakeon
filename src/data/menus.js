@@ -8,6 +8,11 @@ export const menuMain = [
         highlighted: false,
     },
     {
+        name: "Hours",
+        url: `${site_base}#hours`,
+        highlighted: false,
+    },
+    {
         name: "Menu",
         url:  `${site_base}/menu`,
         highlighted: false,

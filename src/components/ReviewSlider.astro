@@ -6,7 +6,7 @@ const allReviews = await getCollection("reviews");
 <div class="swiper w-full mt-8 bg-white rounded-lg">
 	<div class="swiper-wrapper h-auto w-auto pt-8 pb-12">
 		{
-			allReviews.map((review) => (
+			allReviews.map((review: any) => (
 				<div class="swiper-slide cursor-pointer select-none">
 					<div class="px-4 lg:px-8">
 						<blockquote class="border-none">

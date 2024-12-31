@@ -10,7 +10,7 @@ const siteLangFormat = siteLang.replace("_", "-");
 	<nav class="bg-brand-green text-white rounded-full max-w-5xl mx-auto swiper-plates w-full">
 		<ul id="plate-nav" class="px-6 py-3 swiper-wrapper h-auto w-auto">
 			{
-				plates.map((plate) => (
+				plates.map((plate: any) => (
 					<li class="swiper-slide !w-max">
 						<a href={`#${plate.data.slug}`} class="font-medium select-none">
 							{plate.data.prettyName}
@@ -24,7 +24,7 @@ const siteLangFormat = siteLang.replace("_", "-");
 
 <div class="grid grid-cols-1 gap-y-32">
 	{
-		plates.map((plate) => (
+		plates.map((plate: any) => (
 			<div id={plate.data.slug} class="space-y-16 scroll-mt-20">
 				<div class="flex flex-col items-center gap-2 max-w-lg mx-auto text-balance text-center">
 					<h3 class="h4 text-brand-green/70">{plate.data.prettyName}</h3>
@@ -33,7 +33,7 @@ const siteLangFormat = siteLang.replace("_", "-");
 
 				<dl class="max-w-5xl mx-auto">
 					<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-x-16 xl:gap-x-32">
-						{plate.data.plates.map((item) => (
+						{plate.data.plates.map((item: any) => (
 							<div>
 								<dt>
 									<div class="flex justify-between items-center">

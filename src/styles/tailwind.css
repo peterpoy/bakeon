@@ -53,6 +53,14 @@ h6,
 p {
 	@apply leading-relaxed;
 }
+@media screen and (min-width: 600px) {
+
+	/* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+   .mobile-hide {
+	  display: none !important;
+   }
+  
+  }
 
 .button {
 	@apply rounded-full px-4 py-3 text-base transition duration-300 font-bold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;

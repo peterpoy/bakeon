@@ -50,7 +50,7 @@ const site_base = import.meta.env.BASE_URL;
 					<ButtonCallUs />
 				</div>
 			</div>
-			<div slot="hero-content-right">
+			<div slot="hero-content-right" class="hidden md:block">
 				<Picture
 					class:list={"mx-auto"}
 					src={BakeOnCroissants}
@@ -239,11 +239,22 @@ const site_base = import.meta.env.BASE_URL;
 
 	<!-- Contact -->
 	<Section class:list={"bg-white"}>
+		<a name="hours" />
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none">
-				<Badge color="green" title="welcome!" />
+				<Badge color="green" title="Hours + Location" />
 				<h2 slot="heading-title" class="font-black text-brand-green h2 my-4">Drop by and say hello</h2>
 				<div slot="heading-content">
+					<table>
+						<tr><th>Sunday</th><td>Closed</td></tr>
+						<tr><th>Monday</th><td>7am - 4pm</td></tr>
+						<tr><th>Tuesday</th><td>7am - 4pm</td></tr>
+						<tr><th>Wednesday</th><td>7am - 4pm</td></tr>
+						<tr><th>Thursday</th><td>7am - 4pm</td></tr>
+						<tr><th>Friday</th><td>7am - 4pm</td></tr>
+						<tr><th>Saturday</th><td>9am - 5pm</td></tr>
+						</table>
+					<p> Address: <a href="https://maps.app.goo.gl/xVGEVCWMz8bebBc48" target="_blank">3075 George Savage Ave, Oakville, ON L6M 0Y9</a></p>
 					<p>
 						We're located in North Oakville, on George Savage Avenue just off of Dundas. Our
 						bakery & cafe is the perfect place to enjoy a delicious pastry with friends and family.
