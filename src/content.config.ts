@@ -20,7 +20,6 @@ const plates = defineCollection({
 const reviews = defineCollection({
 	loader: file("src/data/reviews.json"),
 	schema: z.object({
-		author: z.string(),
 		review: z.string(),
 	}),
 });

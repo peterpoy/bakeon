@@ -62,8 +62,8 @@ p {
 	@apply bg-brand-green hover:bg-brand-green/80 text-white focus-visible:outline-brand-green;
 }
 
-.button-red {
-	@apply bg-brand-red hover:bg-brand-red/80 text-white focus-visible:outline-brand-red;
+.button-yellow {
+	@apply bg-brand-yellow hover:bg-brand-yellow/80 text-white focus-visible:outline-brand-yellow;
 }
 
 .menu-item-highlighted.menu-item-highlighted {
@@ -84,7 +84,7 @@ p {
 
 section.bg-white + section.bg-white > .container,
 section.bg-brand-green + section.bg-brand-green > .container,
-section.bg-brand-red + section.bg-brand-red > .container {
+section.bg-brand-yellow + section.bg-brand-yellow > .container {
 	@apply pt-0;
 }
 
@@ -99,7 +99,7 @@ label {
 
 /* Swiper */
 .swiper-pagination-bullet-active.swiper-pagination-bullet-active {
-	@apply bg-brand-red;
+	@apply bg-brand-yellow;
 }
 
 /* inter-300 - latin */
@@ -108,7 +108,7 @@ label {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 300;
-	src: url("/fonts/inter/inter-v18-latin-300.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-300.woff2") format("woff2");
 }
 /* inter-300italic - latin */
 @font-face {
@@ -116,7 +116,7 @@ label {
 	font-family: "Inter";
 	font-style: italic;
 	font-weight: 300;
-	src: url("/fonts/inter/inter-v18-latin-300italic.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-300italic.woff2") format("woff2");
 }
 /* inter-regular - latin */
 @font-face {
@@ -124,7 +124,7 @@ label {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
-	src: url("/fonts/inter/inter-v18-latin-regular.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-regular.woff2") format("woff2");
 }
 /* inter-italic - latin */
 @font-face {
@@ -132,7 +132,7 @@ label {
 	font-family: "Inter";
 	font-style: italic;
 	font-weight: 400;
-	src: url("/fonts/inter/inter-v18-latin-italic.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-italic.woff2") format("woff2");
 }
 /* inter-500 - latin */
 @font-face {
@@ -140,7 +140,7 @@ label {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 500;
-	src: url("/fonts/inter/inter-v18-latin-500.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-500.woff2") format("woff2");
 }
 /* inter-500italic - latin */
 @font-face {
@@ -148,7 +148,7 @@ label {
 	font-family: "Inter";
 	font-style: italic;
 	font-weight: 500;
-	src: url("/fonts/inter/inter-v18-latin-500italic.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-500italic.woff2") format("woff2");
 }
 /* inter-600 - latin */
 @font-face {
@@ -156,7 +156,7 @@ label {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 600;
-	src: url("/fonts/inter/inter-v18-latin-600.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-600.woff2") format("woff2");
 }
 /* inter-600italic - latin */
 @font-face {
@@ -164,7 +164,7 @@ label {
 	font-family: "Inter";
 	font-style: italic;
 	font-weight: 600;
-	src: url("/fonts/inter/inter-v18-latin-600italic.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-600italic.woff2") format("woff2");
 }
 /* inter-700 - latin */
 @font-face {
@@ -172,7 +172,7 @@ label {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 700;
-	src: url("/fonts/inter/inter-v18-latin-700.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-700.woff2") format("woff2");
 }
 /* inter-700italic - latin */
 @font-face {
@@ -180,7 +180,7 @@ label {
 	font-family: "Inter";
 	font-style: italic;
 	font-weight: 700;
-	src: url("/fonts/inter/inter-v18-latin-700italic.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-700italic.woff2") format("woff2");
 }
 /* inter-900 - latin */
 @font-face {
@@ -188,7 +188,7 @@ label {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 900;
-	src: url("/fonts/inter/inter-v18-latin-900.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-900.woff2") format("woff2");
 }
 /* inter-900italic - latin */
 @font-face {
@@ -196,7 +196,7 @@ label {
 	font-family: "Inter";
 	font-style: italic;
 	font-weight: 900;
-	src: url("/fonts/inter/inter-v18-latin-900italic.woff2") format("woff2");
+	src: url("/bakeon/fonts/inter/inter-v18-latin-900italic.woff2") format("woff2");
 }
 
 .loader {

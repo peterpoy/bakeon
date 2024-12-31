@@ -23,13 +23,8 @@ export const menuMain = [
         highlighted: false,
     },
     {
-        name: "Contact",
-        url: `${site_base}/contact`,
-        highlighted: false,
-    },
-    {
-        name: "Book",
-        url: `${site_base}/book`,
+        name: "Order",
+        url: "https://www.ubereats.com/ca/store/bake-on/lDGUq6zwVQaXi_zM81_gMw?srsltid=AfmBOoraggix6ruDr5Jz3Evx2C-riBlnsbOyvhTa5skfLvbqq9bj2tbf",
         highlighted: true,
     },
 ];
