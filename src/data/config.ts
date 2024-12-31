@@ -4,7 +4,7 @@ export const siteCurrency = "CAD";
 export const siteDomain = "bakeon.ca";
 export const siteName = "BakeOn";
 export const siteSlogan = "Baked Happiness!";
-export const themeColor = "#FF0000";
+export const themeColor = "#edd455";
 
 export const phone = {
 	href: "tel:+4168294063",
