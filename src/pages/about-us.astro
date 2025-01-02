@@ -1,0 +1,84 @@
+---
+import Layout from "~/layouts/Layout.astro";
+import Section from "~/components/Section.astro";
+import Hero from "~/components/Hero.astro";
+import { Picture } from "astro:assets";
+import Badge from "~/components/Badge.astro";
+import Button from "~/components/Button.astro";
+import ButtonCallUs from "~/components/ButtonCallUs.astro";
+import Article from "~/components/Article.astro";
+
+// Images
+import BakeOn from "~/assets/images/bake-on-logo.png";
+---
+
+<Layout>
+	<Section class:list={"bg-white"}>
+		<Hero>
+			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
+				<Badge title="Happy Bakery and Cafe" />
+				<h1 class="font-black">Delicious coffee, delicious pastries...</h1>
+
+				<p>
+					Experience exceptional baked goods and coffee made from the finest ingredients. Indulge in
+					our wide variety of croissants, New York rolls, and scones, all crafted with love. Whether
+					you're dining in or taking out, we promise a memorable experience.
+				</p>
+
+				<span class="text-brand-green font-medium">✔ We also deliver</span>
+
+				<div class="mt-8 flex items-center gap-x-8">
+					<Button url="https://www.ubereats.com/ca/store/bake-on/lDGUq6zwVQaXi_zM81_gMw?srsltid=AfmBOoraggix6ruDr5Jz3Evx2C-riBlnsbOyvhTa5skfLvbqq9bj2tbf" target="_blank">Order now</Button>
+					<ButtonCallUs />
+				</div>
+			</div>
+			<div slot="hero-content-right">
+				<Picture
+					class:list={"mx-auto"}
+					src={BakeOn}
+					height={600}
+					formats={["avif", "webp"]}
+					alt="A description of my image."
+					loading={"eager"}
+					fetchpriority={"high"}
+				/>
+			</div>
+		</Hero>
+	</Section>
+
+	<Section class:list={'bg-white'}>
+		<Article>
+			<h2>Welcome to Bake On</h2>
+			<p>
+				Nestled in the heart of the North Oakville, <strong>Bake On</strong> offers a fantastic, cozy cafe experience
+				like no other. From the moment you step through our doors, you'll feel nice and warm, where good food and great company are at the center of life.
+			</p>
+
+			<h3>Our Story</h3>
+			<p>
+				Founded in <em>2022</em>, our family-owned cafe has always been a labor of love. Fuelled by our
+				passion for cooking, we bring <u>delicious</u> pastries to your plate.
+			</p>
+
+			<h3>Our Philosophy</h3>
+			<p>
+				At Bake On, we believe in the simple joy of fresh ingredients, time-honored techniques, and a
+				passion for creating memories
+			</p>
+
+			<h4>What Makes Us Special?</h4>
+			<ul>
+				<li><strong>Authenticity:</strong> Unique recipes.</li>
+				<li><strong>Fresh Ingredients:</strong> Locally sourced produce and imported Italian coffee.</li>
+				<li><strong>Warm Atmosphere:</strong> A place where everyone feels welcomed.</li>
+			</ul>
+
+			<h3>Join Us</h3>
+			<p>
+				Whether you're celebrating a special occasion or simply taking stroll in the neighborhood , <strong
+					>Bake On</strong
+				> is the perfect destination. <em>Come for the pastries and coffee, stay for the vibes.</em>
+			</p>
+		</Article>
+	</Section>
+</Layout>

@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"title": "Christmas at bake on!",
+		"image": "/src/assets/images/gallery/gallery-001.jpg",
+		"alt": "Christmas at bake on!"
+	},
+	{
+		"id": 2,
+		"title": "Sitting Rudolph Cake",
+		"image": "/src/assets/images/gallery/gallery-002.jpg",
+		"alt": "Sitting Rudolph Cake"
+	},
+	{
+		"id": 3,
+		"title": "X-mas Tree bear",
+		"image": "/src/assets/images/gallery/gallery-003.jpg",
+		"alt": "X-mas Tree bear"
+	},
+	{
+		"id": 4,
+		"title": "Espresso Machine",
+		"image": "/src/assets/images/gallery/gallery-004.jpg",
+		"alt": "Espresso Machine"
+	},
+	{
+		"id": 5,
+		"title": "Cheese Cake!",
+		"image": "/src/assets/images/gallery/gallery-005.jpg",
+		"alt": "Cheese Cake!"
+	},
+	{
+		"id": 6,
+		"title": "Mini Genoise with Cream Cheese Cake 🍰",
+		"image": "/src/assets/images/gallery/gallery-006.jpg",
+		"alt": "Mini Genoise with Cream Cheese Cake 🍰"
+	},
+	{
+		"id": 7,
+		"title": "Cozy atmosphere!",
+		"image": "/src/assets/images/gallery/gallery-007.jpg",
+		"alt": "Cozy atmosphere!"
+	},
+	{
+		"id": 8,
+		"title": "Store front!",
+		"image": "/src/assets/images/gallery/gallery-008.jpg",
+		"alt": "Store front!"
+	},
+	{
+		"id": 9,
+		"title": "Views from inside!",
+		"image": "/src/assets/images/gallery/gallery-009.jpg",
+		"alt": "Views from inside!"
+	}
+]

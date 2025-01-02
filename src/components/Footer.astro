@@ -1,0 +1,31 @@
+---
+import { menuMain } from "~/data/menus";
+const currentYear = new Date().getFullYear();
+import { siteName } from "~/data/config";
+import { Picture } from "astro:assets";
+import BakeOnLogo from "~/assets/images/bake-on-logo.png";
+---
+
+<footer class="bg-amber-50 text-success">
+	<div class="container pt-16 pb-8">
+		<Picture
+					class:list={"mx-auto"}
+					src={BakeOnLogo}
+					height={120}
+					formats={["avif", "webp"]}
+					alt="A description of my image."
+					loading={"eager"}
+					fetchpriority={"high"}
+				/>
+		<nav class="flex flex-col sm:flex-row items-center justify-center gap-x-12 gap-y-3 font-medium mt-6" aria-label="Footer">
+			{
+				menuMain.map((item) => (
+					<a href={item.url} class="hover:underline">
+						{item.name}
+					</a>
+				))
+			}
+		</nav>
+		<p class="mt-10 text-center text-sm">&copy; {currentYear} {siteName}. All rights reserved. <a class="underline" href="/privacy-policy">Privacy policy</a></p>
+	</div>
+</footer>

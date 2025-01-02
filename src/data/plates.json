@@ -1,0 +1,320 @@
+[
+	{
+		"id": 1,
+		"slug": "Bakery",
+		"prettyName": "Bakery",
+		"description": "At Bake On, we believe in the magic of freshly baked goods. Come by today and treat yourself to something delicious!",
+		"plates": [
+			{
+				"name": "New York Roll",
+				"description": "Rolled croissant filled with flavored custard.",
+				"price": 9.95
+			},
+			{
+				"name": "Almond Croissant",
+				"description": "Filled with sweet almond paste and topped with sliced almonds.",
+				"price": 6.95
+			},
+			{
+				"name": "Basque Cheesecake",
+				"description": "Burnt top cheese cake topped with smooth mascarpone cream and fresh cream. Choose your flavor: Original, Chocolate, Cheddar cheese, Matcha.",
+				"price": 9.95
+			},
+			{
+				"name": "Crookie",
+				"description": "Croissant filled with cookie inside and topped with chocolate cookie.",
+				"price": 7.95
+			},
+			{
+				"name": "Pistachio Croissant",
+				"description": "Stuffed with pistachio paste, cardamom, cinnamon.",
+				"price": 8.95
+			},
+			{
+				"name": "Mocha Croissant",
+				"description": "Stuffed with mocha paste.",
+				"price": 6.95
+			},
+			{
+				"name": "Chocolate Croissant",
+				"description": "Stuffed with chocolate paste.",
+				"price": 5.25
+			},
+			{
+				"name": "Flat Croissant",
+				"description": "Caramelized flat croissant.",
+				"price": 6.95
+			},
+			{
+				"name": "Banana Pudding",
+				"description": "Creamy sweet dessert made with layers of vanilla pudding, sliced bananas, wafers.",
+				"price": 8.25
+			},
+			{
+				"name": "Cream Cheese Cookie",
+				"description": "Choose from: matcha, tiramisu, red velvet, earl grey, and mugwort.",
+				"price": 5.50
+			},
+			{
+				"name": "Almond Croissants (3pcs)",
+				"description": "Filled with sweet almond paste and topped with sliced almonds.",
+				"price": 19.00
+			},
+			{
+				"name": "Baked Cookie",
+				"description": "Following offerings: Strawberry Oreo S'more, white chocolate, macadamia, strawberry powder, strawberry Oreo, marshmallow, freeze-dried strawberries.",
+				"price": 5.50
+			},
+			{
+				"name": "Honey Butter Croissant",
+				"description": "Buttery, flaky perfection meets the sweet warmth of honey.",
+				"price": 4.95
+			},
+			{
+				"name": "Honey Butter Croissant (3pcs)",
+				"description": "Buttery, flaky perfection meets the sweet warmth of honey. Times three.",
+				"price": 13.00
+			},
+			{
+				"name": "Assorted Croissants (6pcs)",
+				"description": "Honey butter croissant 2pcs, Almond croissants 2pcs, Mocha croissant 1pcs, Flat croissant 1pcs.",
+				"price": 34.00
+			},
+			{
+				"name": "Assorted New York roll (4pcs)",
+				"description": "Rolled croissant filled with flavored custard. The more the merrier!",
+				"price": 39.00
+			},
+			{
+				"name": "Tiramisu",
+				"description": "Rich coffee-soaked layers meet creamy mascarpone.",
+				"price": 17.00
+			},
+			{
+				"name": "Pistachio Tiramisu",
+				"description": "Savor the unique twist on a classic with our Pistachio Tiramisu, where creamy mascarpone and pistachio meet in a delightful, nutty fusion of flavors.",
+				"price": 18.00
+			},
+			{
+				"name": "Salt Bread",
+				"description": "",
+				"price": 4.75
+			},
+			{
+				"name": "Chocolate Chip Walnut Cookie",
+				"description": "Chocolate chip with walnut cookie.",
+				"price": 5.50
+			},
+			{
+				"name": "Lotus S'more Cookie",
+				"description": "Lotus biscoff with marshmallow",
+				"price": 5.50
+			},
+			{
+				"name": "Matcha Macadamia Cookie",
+				"description": "White Chocolate, macadamia, Matcha powder.",
+				"price": 5.50
+			},
+			{
+				"name": "Dubai Chocolate Pistachio Croissant",
+				"description": "Rich, smooth chocolate and crunchy pistachios come together in a flaky, buttery pastry for a decadent, unforgettable treat.",
+				"price": 12.95
+			}
+		]
+	},
+	{
+		"id": 2,
+		"slug": "Cream Latte",
+		"prettyName": "Cream Latte (Signature blend-iced only)",
+		"description": "Carefully crafted signature coffee blend, chilled to perfection, and topped with smooth, creamy finishes",
+		"plates": [
+			{
+				"name": "Vanilla Cream Latte",
+				"description": "Latte with signature vanilla bean cream on top.",
+				"price": 8.25
+			},
+			{
+				"name": "Mocha Cream Latte",
+				"description": "Latte with signature mocha cream on top.",
+				"price": 8.50
+			},
+			{
+				"name": "Oreo Cream Latte",
+				"description": "Latte with signature Oreo cream on top.",
+				"price": 8.25
+			},
+			{
+				"name": "Lotus Cream Latte",
+				"description": "Latte with signature lotus biscoff cream on top.",
+				"price": 8.25
+			},
+			{
+				"name": "Berry Cloud Cream Latte",
+				"description": "Latte with home-made strawberry purée and strawberry cream on top.",
+				"price": 8.75
+			},
+			{
+				"name": "Pistachio Cream Latte",
+				"description": "Latte with pistachio cream on top.",
+				"price": 9.75
+			}
+		]
+	},
+	{
+		"id": 3,
+		"slug": "Espresso",
+		"prettyName": "Espresso",
+		"description": "Elevate your coffee experience.",
+		"plates": [
+			{
+				"name": "Americano",
+				"description": "Bold, smooth, and rich—an Italian classic in every sip.",
+				"price": 4.95
+			},
+			{
+				"name": "Latte",
+				"description": "Creamy latte, made with premium Italian beans—smooth, rich, and perfectly balanced.",
+				"price": 5.95
+			},
+			{
+				"name": "Cappuccino",
+				"description": "Bold, creamy, and perfectly frothy.",
+				"price": 5.95
+			},
+			{
+				"name": "Caramel Macchiato",
+				"description": "Made with premium Italian beans, velvety milk, and a touch of sweet caramel.",
+				"price": 6.50
+			}
+		]
+	},
+	{
+		"id": 4,
+		"slug": "Non-Coffee",
+		"prettyName": "Non - Coffee",
+		"description": "Savor the flavors of our exquisite drinks. Note: Substitute dairy options available!",
+		"plates": [
+			{
+				"name": "Matcha Latte",
+				"description": "Vibrant matcha latte, made with smooth, creamy milk and premium matcha for a refreshing, earthy flavor.",
+				"price": 6.75
+			},
+			{
+				"name": "London Fog Latte",
+				"description": "vanilla syrup, earl grey tea , milk, lavender on top.",
+				"price": 6.75
+			},
+			{
+				"name": "Hot Chocolate",
+				"description": "Marshmallow on top.",
+				"price": 6.50
+			},
+			{
+				"name": "Lemonade",
+				"description": "A tangy, refreshing lemonade made with freshly squeezed lemons for a burst of natural citrus flavor.",
+				"price": 5.75
+			},
+			{
+				"name": "Strawberryade",
+				"description": "",
+				"price": 5.75
+			},
+			{
+				"name": "Tea",
+				"description": "",
+				"price": 4.95
+			},
+			{
+				"name": "Perrier",
+				"description": "Elegant, sparkling and refreshing.",
+				"price": 4.95
+			},
+			{
+				"name": "Hibiscus Strawberryade",
+				"description": "",
+				"price": 6.45
+			},
+			{
+				"name": "Pink Lemonade",
+				"description": "",
+				"price": 6.45
+			},
+			{
+				"name": "Strawberry Latte (Iced only)",
+				"description": "Fresh home made strawberry purée with milk.",
+				"price": 6.75
+			},
+			{
+				"name": "Kiju Juice",
+				"description": "Options include: Apple, Mango Orange, and Grape Apple",
+				"price": 2.50
+			},
+			{
+				"name": "Matcha Strawberry (Iced)",
+				"description": "Home made strawberry with Matcha Latte.",
+				"price": 8.50
+			}
+		]
+	},
+	{
+		"id": 5,
+		"slug": "Sandwiches",
+		"prettyName": "Sandwiches",
+		"description": "Indulge in our hearty and satisfying sandwiches.",
+		"plates": [
+			{
+				"name": "Egg Salad Sandwich",
+				"description": "Egg salad, parsley.",
+				"price": 10.95
+			},
+			{
+				"name": "Chicken Sandwich",
+				"description": "Chicken, tomato, romaine, red cabbage, marble cheddar cheese.",
+				"price": 13.95
+			},
+			{
+				"name": "Croissant Sandwich",
+				"description": "Tomato, arugula, marble cheddar cheese, choice of Chicken, Turkey, Ham.",
+				"price": 15.95
+			},
+			{
+				"name": "Turkey Sandwich",
+				"description": "Turkey, tomato, romaine, red cabbage, marble cheddar cheese.",
+				"price": 13.95
+			}
+		]
+	},
+	{
+		"id": 6,
+		"slug": "Scones",
+		"prettyName": "Scones",
+		"description": "Pair your coffee with our freshly baked, delicious scones.",
+		"plates": [
+			{
+				"name": "Victoria Scone",
+				"description": "Fresh cream, mascrapone, raspberry jam.",
+				"price": 8.45
+			},
+			{
+				"name": "Lemon Early Grey Scone",
+				"description": "Early grey tea, lemon juice, fresh cream, mascrapone.",
+				"price": 8.45
+			},
+			{
+				"name": "Chocolate Scone",
+				"description": "Chocolate chips, Cocoa powder, Cherry, kirsh, Fresh cream, Mascarpone.",
+				"price": 8.45
+			},
+			{
+				"name": "Mugwort Injeolmi Scone",
+				"description": "Mugwort powder, Red bean, Injeolmi powder, Fresh cream, Mascarpone.",
+				"price": 8.45
+			},
+			{
+				"name": "Four Assorted Scones",
+				"description": "",
+				"price": 32.00
+			}
+		]
+	}
+]
