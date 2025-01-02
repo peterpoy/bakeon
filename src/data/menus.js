@@ -9,7 +9,7 @@ export const menuMain = [
     },
     {
         name: "Hours",
-        url: `${site_base}#hours`,
+        url: `${site_base}/#hours`,
         highlighted: false,
     },
     {
