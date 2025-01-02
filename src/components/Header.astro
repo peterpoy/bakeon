@@ -3,7 +3,6 @@ import { menuMain } from "~/data/menus.js";
 import { Picture } from "astro:assets";
 import BakeOnLogo from "~/assets/images/bake-on-logo.png";
 const pathname = Astro.url.pathname;
-const site_base = import.meta.env.BASE_URL;
 ---
 
 <header x-data="{ open: false }" @keydown.window.escape="open = false">
@@ -17,7 +16,7 @@ const site_base = import.meta.env.BASE_URL;
 	</script>
 	<div class="container py-1.5" >
 		<nav class="flex items-center justify-between" aria-label="Global">
-			<a href=`${site_base}` class="-m-1.5 p-1.5">
+			<a href=`/` class="-m-1.5 p-1.5">
 				<Picture
 				class:list={"mx-auto"}
 				src={BakeOnLogo}

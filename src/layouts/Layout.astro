@@ -6,7 +6,6 @@ import Footer from "~/components/Footer.astro";
 const { pageTitle, title, description } = Astro.props;
 const baseUrl = `${Astro.url.protocol}//${Astro.url.host}`;
 import { siteLang, themeColor } from "~/data/config";
-const site_base = import.meta.env.BASE_URL;
 ---
 
 <!doctype html>
@@ -19,7 +18,7 @@ const site_base = import.meta.env.BASE_URL;
 		<meta name="robots" content="index,follow" />
 		<meta name="googlebot" content="index,follow" />
 		<link rel="author" href="humans.txt" />
-		<link rel="icon" type="image/svg+xml" href={site_base + "/favicon.svg"} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
 		<!-- <link
 			rel="apple-touch-icon"
@@ -49,7 +48,7 @@ const site_base = import.meta.env.BASE_URL;
 		<meta property="og:url" content={Astro.url} />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content={title} />
-		<meta property="og:image" content={`${baseUrl}/images/bake-on-logo.png`} />
+		<meta property="og:image" content="/images/bake-on-logo.png" />
 		<meta property="og:description" content={description} />
 		<meta property="og:site_name" content="WP Infusion" />
 		<meta property="og:locale" content={siteLang} />
