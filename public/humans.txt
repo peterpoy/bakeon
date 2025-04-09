@@ -10,4 +10,4 @@ Astro
 TailwindCSS
 
 # SITE
-Last update: 1-1-2025
+Last update: 2025-04-09

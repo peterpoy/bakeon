@@ -9,22 +9,25 @@ import mdx from "@astrojs/mdx";
 
 import playformInline from "@playform/inline";
 
+import sitemap from "@astrojs/sitemap";
+
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
-		tailwind(),
-		alpinejs(),
-		mdx(),
-		(await import("@playform/inline")).default({
-			Critters: true,
-		}),
-	],
-	output: "static",
-	devToolbar: {
-		enabled: false,
-	},
-	experimental: {
-		svg: true,
-	},
-	site: 'https://bakeon.ca/',
+    integrations: [
+      tailwind(),
+      alpinejs(),
+      mdx(),
+      (await import("@playform/inline")).default({
+          Critters: true,
+      }),
+      sitemap({lastmod: new Date('2022-02-24')}),
+    ],
+    output: "static",
+    devToolbar: {
+        enabled: false,
+    },
+    experimental: {
+        svg: true,
+    },
+    site: 'https://bakeon.ca/',
 });
