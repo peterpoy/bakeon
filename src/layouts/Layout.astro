@@ -6,6 +6,8 @@ import Footer from "~/components/Footer.astro";
 const { pageTitle, title, description } = Astro.props;
 const baseUrl = `${Astro.url.protocol}//${Astro.url.host}`;
 import { siteLang, themeColor } from "~/data/config";
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const url = canonicalUrl.href;
 ---
 
 <!doctype html>
@@ -20,6 +22,7 @@ import { siteLang, themeColor } from "~/data/config";
 		<meta name="googlebot" content="index,follow" />
 		<link rel="author" href="humans.txt" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="canonical" href={url} />
 		<meta name="msapplication-TileColor" content="#ffffff" />
 
 		<meta property="og:url" content={Astro.url} />

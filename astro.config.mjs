@@ -30,4 +30,5 @@ export default defineConfig({
         svg: true,
     },
     site: 'https://bakeon.ca/',
+    trailingSlash: "always",
 });

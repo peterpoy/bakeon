@@ -7,7 +7,7 @@ export const siteSlogan = "Baked Happiness!";
 export const themeColor = "#edd455";
 
 export const phone = {
-	href: "tel:+4168294063",
+	href: "tel:+14168294063",
 	label: "(416) 829-4063",
 };
 
