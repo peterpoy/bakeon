@@ -3,8 +3,6 @@ import "~/styles/tailwind.css";
 import { ClientRouter } from "astro:transitions";
 import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
-const { pageTitle, title, description } = Astro.props;
-const baseUrl = `${Astro.url.protocol}//${Astro.url.host}`;
 import { siteLang, themeColor } from "~/data/config";
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 const url = canonicalUrl.href;
@@ -17,7 +15,6 @@ const url = canonicalUrl.href;
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content={themeColor} />
-		<meta name="description" content={description} />
 		<meta name="robots" content="index,follow" />
 		<meta name="googlebot" content="index,follow" />
 		<link rel="author" href="humans.txt" />
@@ -27,13 +24,14 @@ const url = canonicalUrl.href;
 
 		<meta property="og:url" content={Astro.url} />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content={title} />
 		<meta property="og:image" content="/images/bake-on-logo.png" />
-		<meta property="og:description" content={description} />
 		<meta property="og:site_name" content="bakeon1" />
 		<meta property="og:locale" content={siteLang} />
 
-		<title>{pageTitle}</title>
+		<title>Oakville Bakery Cafe Bake On | Top Oakville Cafe | Cozy vibes </title>
+		<meta property="og:title" content="Oakville Bakery Cafe Bake On | Top Oakville Cafe | Cozy vibes ">
+		<meta name="description" content="Cozy Oakville Cafe and Bakery selling New York Rolls, Matcha Lattes, and more!">
+		<meta property="og:description" content="Oakvile Cafe and Bakery located at 3075 George Savage Ave, Oakville, ON L6M 0Y9. Find delicious baked goods like cream filled New York Rolls, Scones, Cookies and more! Also try our highly acclaimed lattes and coffees!">
 		<ClientRouter />
 	</head>
 	<body>
