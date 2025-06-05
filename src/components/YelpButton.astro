@@ -1,0 +1,14 @@
+---
+import { Picture } from "astro:assets";
+import YelpLogo from "~/assets/icons/yelp_favicon.png";
+---
+
+<Picture
+    class:list={"mx-auto"}
+    src={YelpLogo}
+    height={30}
+    formats={["avif", "webp"]}
+    alt="Yelp Logo."
+    loading={"eager"}
+    fetchpriority={"high"}
+/>
