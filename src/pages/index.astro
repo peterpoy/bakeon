@@ -21,6 +21,7 @@ import DecorativeImage from "~/assets/images/baked-goods-landscape.jpeg";
 import BakeOnLogo from "~/assets/images/bake-on-logo.png";
 import BakeOnSandwiches from "~/assets/images/bake-on-sandwiches.jpg";
 import ChristmasSpecial from "~/assets/images/christmas-special-2024.jpg";
+import YelpButton from "~/components/YelpButton.astro";
 ---
 
 <Layout title="Home" pageTitle="Bake On" description="Welcome to our cafe!">
@@ -168,18 +169,29 @@ import ChristmasSpecial from "~/assets/images/christmas-special-2024.jpg";
 						<p class="text-center">
 							Don't just take our word for it. Read what our customers have to say about their dining
 							experience at our restaurant.
-						</p>
-
+						</p>					
 						<ReviewSlider />
+						<br />
+						<span class={`inline-flex not-prose items-center`}>
+							<a class="z-50" href="https://www.yelp.ca/biz/bakeon-bakery-and-cafe-oakville">
+							<YelpButton />
+							</a>
+							<p class="ml-5"> 
+								Check us out on Yelp!
+							</p>
+						</span>
+
+
 					</div>
 				</div>
+				
 
 				<div slot="hero-content-right">
 					<Picture src={BakeOnLogo} alt="Review authors" class="w-full h-auto" />
 				</div>
 			</Hero>
 		</div>
-
+		
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 1440 320"
