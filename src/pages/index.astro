@@ -12,7 +12,7 @@ import WideImage from "~/components/WideImage.astro";
 import ReviewSlider from "~/components/ReviewSlider.astro";
 
 // Images
-import CozyInside from "~/assets/images/cozy-inside.jpg"
+import CozyInside from "~/assets/images/cozy-inside.jpg";
 import BakeOnRoll from "~/assets/images/new-york-roll-chocolate.jpeg";
 import BakeOnCroissants from "~/assets/images/freshly-baked-croissants.jpg";
 import Latte from "~/assets/images/latte.jpeg";
@@ -20,29 +20,40 @@ import AlmondCroissant from "~/assets/images/almond-croissant.jpeg";
 import DecorativeImage from "~/assets/images/baked-goods-landscape.jpeg";
 import BakeOnLogo from "~/assets/images/bake-on-logo.png";
 import BakeOnSandwiches from "~/assets/images/bake-on-sandwiches.jpg";
-import ChristmasSpecial from "~/assets/images/christmas-special-2024.jpg";
+import AutumnSpecial from "~/assets/images/2025_autumn_drinks_01.jpg";
 import YelpButton from "~/components/YelpButton.astro";
 ---
 
 <Layout title="Home" pageTitle="Bake On" description="Welcome to our cafe!">
 	<Section class:list={"bg-white"}>
 		<Hero>
-			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
+			<div
+				slot="hero-content-left"
+				class="prose max-w-none max-lg:order-1"
+			>
 				<Badge title="Our Goal: Perfect Coffee, Perfect Vibes" />
-				<h1 class="font-semibold">Visit Bake On Cafe & Bakery in Oakville</h1>
+				<h1 class="font-semibold">
+					Visit Bake On Cafe & Bakery in Oakville
+				</h1>
 
 				<p>
-					Where the sunshine meets the perfect brew.
-					Indulge in the warm, inviting atmosphere of our cafe, where every 
-					cup of coffee is crafted with care and every pastry is baked to perfection. 
-					Whether you're starting your day or taking a well-deserved break, 
-					Bake On is here to brighten your day with a splash of yellow, great flavors, and a cozy vibe.
+					Where the sunshine meets the perfect brew. Indulge in the
+					warm, inviting atmosphere of our cafe, where every cup of
+					coffee is crafted with care and every pastry is baked to
+					perfection. Whether you're starting your day or taking a
+					well-deserved break, Bake On is here to brighten your day
+					with a splash of yellow, great flavors, and a cozy vibe.
 				</p>
 
-				<span class="text-brand-green font-medium">✔ Find us on UberEats!</span>
+				<span class="text-brand-green font-medium"
+					>✔ Find us on UberEats!</span
+				>
 
 				<div class="mt-8 flex items-center gap-x-8">
-					<Button url="https://www.ubereats.com/ca/store/bake-on/lDGUq6zwVQaXi_zM81_gMw?srsltid=AfmBOoraggix6ruDr5Jz3Evx2C-riBlnsbOyvhTa5skfLvbqq9bj2tbf" target="_blank">
+					<Button
+						url="https://www.ubereats.com/ca/store/bake-on/lDGUq6zwVQaXi_zM81_gMw?srsltid=AfmBOoraggix6ruDr5Jz3Evx2C-riBlnsbOyvhTa5skfLvbqq9bj2tbf"
+						target="_blank"
+					>
 						UberEats
 					</Button>
 					<ButtonCallUs />
@@ -62,13 +73,20 @@ import YelpButton from "~/components/YelpButton.astro";
 		</Hero>
 	</Section>
 
-	<WideImage image={DecorativeImage} alt="All our delicious baked goods!" class:list={"aspect-video lg:aspect-[16/6]"} />
+	<WideImage
+		image={DecorativeImage}
+		alt="All our delicious baked goods!"
+		class:list={"aspect-video lg:aspect-[16/6]"}
+	/>
 
 	<Section class:list={"bg-white"}>
 		<Heading>
-			<h2 slot="heading-title" class="font-black text-brand-green h2">Our dishes</h2>
+			<h2 slot="heading-title" class="font-black text-brand-green h2">
+				Our dishes
+			</h2>
 			<p slot="heading-content">
-				Discover our selection of freshly baked New York rolls and quality coffee, made with love and the finest ingredients.
+				Discover our selection of freshly baked New York rolls and
+				quality coffee, made with love and the finest ingredients.
 			</p>
 		</Heading>
 
@@ -83,9 +101,11 @@ import YelpButton from "~/components/YelpButton.astro";
 					/>
 					<h3 class="h4 mt-0 font-black">New York Rolls</h3>
 					<p>
-						New York rolls, filled with delicious, velvety cream, are a true indulgence. With their soft,
-						slightly sweet dough and rich, creamy filling, these rolls offer the perfect balance of flavor
-						and texture, making them a must-try treat for any occasion.
+						New York rolls, filled with delicious, velvety cream,
+						are a true indulgence. With their soft, slightly sweet
+						dough and rich, creamy filling, these rolls offer the
+						perfect balance of flavor and texture, making them a
+						must-try treat for any occasion.
 					</p>
 				</div>
 			</div>
@@ -98,11 +118,14 @@ import YelpButton from "~/components/YelpButton.astro";
 						formats={["avif", "webp"]}
 						alt="A Latte from Bake On."
 					/>
-					<h3 class="h4 mt-0 font-black">Latte &amp; Coffee </h3>
+					<h3 class="h4 mt-0 font-black">Latte &amp; Coffee</h3>
 					<p>
-						Our lattes and coffee are crafted from premium Italian beans, offering an authentic and rich coffee experience. 
-						Each cup is brewed to perfection, delivering a smooth, full-bodied flavor with every sip.
-						Whether you're enjoying a classic latte or a bold espresso, our coffee brings the true taste of Italy right to your cup.
+						Our lattes and coffee are crafted from premium Italian
+						beans, offering an authentic and rich coffee experience.
+						Each cup is brewed to perfection, delivering a smooth,
+						full-bodied flavor with every sip. Whether you're
+						enjoying a classic latte or a bold espresso, our coffee
+						brings the true taste of Italy right to your cup.
 					</p>
 				</div>
 			</div>
@@ -117,10 +140,13 @@ import YelpButton from "~/components/YelpButton.astro";
 					/>
 					<h3 class="h4 mt-0 font-black">Croissants &amp; More!</h3>
 					<p>
-						Our croissants, scones, and cookies are baked to perfection using the finest ingredients. 
-						Each treat is crafted with care, offering a delightful balance of buttery flakiness, soft textures, and irresistible flavors. 
-						From the golden, flaky layers of our croissants to the warm,
-						comforting scones and cookies, every bite is a delicious indulgence you won't want to miss.
+						Our croissants, scones, and cookies are baked to
+						perfection using the finest ingredients. Each treat is
+						crafted with care, offering a delightful balance of
+						buttery flakiness, soft textures, and irresistible
+						flavors. From the golden, flaky layers of our croissants
+						to the warm, comforting scones and cookies, every bite
+						is a delicious indulgence you won't want to miss.
 					</p>
 				</div>
 			</div>
@@ -128,26 +154,48 @@ import YelpButton from "~/components/YelpButton.astro";
 	</Section>
 	<Section class:list={"bg-amber-50"}>
 		<Hero>
-			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-				<Badge color="green" title="delicious" />
-				<h2 class="font-black h2 my-4">Christmas Cake</h2>
+			<div
+				slot="hero-content-left"
+				class="prose max-w-none max-lg:order-1"
+				id="specials"
+			>
+				<Badge color="green" title="specials" />
+				<h2 class="font-black h2 my-4">Hello AUTUMN</h2>
 
-				<span class="text-brand-green text-2xl font-bold italic">Freshly Baked!</span>
+				<span class="text-brand-green text-2xl font-bold italic"
+					>Autumn your day!</span
+				>
 
+				<p>🍂 Hello BAKE ON family 🧸</p>
 				<p>
-					Hello to all the BAKE ON Lovers! 🎄🎅
-					2024 Christmas cake designs are finally here! 
-					We’ve prepared Christmas cakes to bring warmth and joy to your holiday celebrations. 😊
+					Our fall menu has finally arrived‼️ Now that summer has
+					passed and the crisp autumn breeze is here, why not enjoy it
+					with our new seasonal drinks?
+					<li style="list-style: none;">
+						1️⃣ Nutella & Hazelnut Cream Latte
+					</li>
+					<li style="list-style: none;">
+						2️⃣ Banana-flavored Cream Matcha
+					</li>
+					<li style="list-style: none;">
+						3️⃣ Macadamia Oat Latte – the nutty must-have of fall ✨
+					</li>
+
+					Lovingly crafted, just for you 🍁🍁
 				</p>
 
 				<div class="mt-8">
-					<Button color="red" url="https://forms.gle/omuHtVMTHABQmcZG7" target="_blank">Order Now!</Button>
+					<Button
+						color="red"
+						url="https://www.ubereats.com/ca/store/bake-on/lDGUq6zwVQaXi_zM81_gMw/7aceabe0-f62c-504b-b19d-3e74a2df8bab/6a1601a1-afdf-46fd-932b-610498967db5/2e39af0a-2905-4234-9bda-c5844c4cf14f"
+						target="_blank">Order Now!</Button
+					>
 				</div>
 			</div>
 			<div slot="hero-content-right">
 				<Picture
 					class:list={"mx-auto"}
-					src={ChristmasSpecial}
+					src={AutumnSpecial}
 					height={600}
 					formats={["avif", "webp"]}
 					alt="Delicious Christmas Cakes."
@@ -164,34 +212,43 @@ import YelpButton from "~/components/YelpButton.astro";
 					<div class="text-center not-prose">
 						<Badge color="green" title="reviews" />
 					</div>
-					<h2 slot="heading-title" class="font-black h4 text-center mt-0 mb-4">What our customers say...</h2>
+					<h2
+						slot="heading-title"
+						class="font-black h4 text-center mt-0 mb-4"
+					>
+						What our customers say...
+					</h2>
 					<div slot="heading-content">
 						<p class="text-center">
-							Don't just take our word for it. Read what our customers have to say about their dining
-							experience at our restaurant.
-						</p>					
+							Don't just take our word for it. Read what our
+							customers have to say about their dining experience
+							at our restaurant.
+						</p>
 						<ReviewSlider />
 						<br />
-						<span class={`inline-flex not-prose items-center`}>
-							<a class="z-50" href="https://www.yelp.ca/biz/bakeon-bakery-and-cafe-oakville">
-							<YelpButton />
-							</a>
-							<p class="ml-5"> 
-								Check us out on Yelp!
-							</p>
-						</span>
+						<a
+							class="z-50"
+							href="https://www.yelp.ca/biz/bakeon-bakery-and-cafe-oakville"
+						>
+							<span class={`inline-flex not-prose items-center`}>
+								<YelpButton />
 
-
+								<p class="ml-5">Check us out on Yelp!</p>
+							</span>
+						</a>
 					</div>
 				</div>
-				
 
 				<div slot="hero-content-right">
-					<Picture src={BakeOnLogo} alt="Review authors" class="w-full h-auto" />
+					<Picture
+						src={BakeOnLogo}
+						alt="Review authors"
+						class="w-full h-auto"
+					/>
 				</div>
 			</Hero>
 		</div>
-		
+
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 1440 320"
@@ -221,11 +278,19 @@ import YelpButton from "~/components/YelpButton.astro";
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none order-2">
 				<Badge title="unique" />
-				<h2 slot="heading-title" class="font-black text-brand-green h2 my-4">Sandwiches</h2>
+				<h2
+					slot="heading-title"
+					class="font-black text-brand-green h2 my-4"
+				>
+					Sandwiches
+				</h2>
 				<div slot="heading-content">
 					<p>
-						Indulge in our hearty and satisfying sandwiches, each crafted with fresh, quality ingredients to satisfy your cravings.
-						Whether you're in the mood for a classic egg salad or a flavorful croissant sandwich, our selections are sure to hit the spot. 
+						Indulge in our hearty and satisfying sandwiches, each
+						crafted with fresh, quality ingredients to satisfy your
+						cravings. Whether you're in the mood for a classic egg
+						salad or a flavorful croissant sandwich, our selections
+						are sure to hit the spot.
 					</p>
 
 					<div class="mt-8">
@@ -249,9 +314,14 @@ import YelpButton from "~/components/YelpButton.astro";
 	<!-- Contact -->
 	<Section class:list={"bg-white"}>
 		<Hero>
-			<div id="hours"slot="hero-content-left" class="prose max-w-none">
+			<div id="hours" slot="hero-content-left" class="prose max-w-none">
 				<Badge color="green" title="Hours + Location" />
-				<h2 slot="heading-title" class="font-black text-brand-green h2 my-4">Drop by and say hello</h2>
+				<h2
+					slot="heading-title"
+					class="font-black text-brand-green h2 my-4"
+				>
+					Drop by and say hello
+				</h2>
 				<div slot="heading-content">
 					<table>
 						<tr><th>Sunday</th><td>Closed</td></tr>
@@ -261,19 +331,32 @@ import YelpButton from "~/components/YelpButton.astro";
 						<tr><th>Thursday</th><td>7am - 4pm</td></tr>
 						<tr><th>Friday</th><td>7am - 4pm</td></tr>
 						<tr><th>Saturday</th><td>9am - 5pm</td></tr>
-						</table>
-					<p> Address: <a href="https://maps.app.goo.gl/xVGEVCWMz8bebBc48" target="_blank">3075 George Savage Ave, Oakville, ON L6M 0Y9</a></p>
+					</table>
 					<p>
-						We're located in North Oakville, on George Savage Avenue just off of Dundas. Our
-						bakery & cafe is the perfect place to enjoy a delicious pastry with friends and family.
+						Address: <a
+							href="https://maps.app.goo.gl/xVGEVCWMz8bebBc48"
+							target="_blank"
+							>3075 George Savage Ave, Oakville, ON L6M 0Y9</a
+						>
+					</p>
+					<p>
+						We're located in North Oakville, on George Savage Avenue
+						just off of Dundas. Our bakery & cafe is the perfect
+						place to enjoy a delicious pastry with friends and
+						family.
 					</p>
 
 					<span class="text-brand-green font-medium">
-						✔ We also do take-away, so you can enjoy your food at home
+						✔ We also do take-away, so you can enjoy your food at
+						home
 					</span>
 
 					<div class="mt-8">
-						<Button color="green" url="https://www.instagram.com/__bake.on/" target="_blank">Follow us on Instagram!</Button>
+						<Button
+							color="green"
+							url="https://www.instagram.com/__bake.on/"
+							target="_blank">Follow us on Instagram!</Button
+						>
 					</div>
 				</div>
 			</div>
