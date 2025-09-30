@@ -56,11 +56,6 @@
 				"price": 5.50
 			},
 			{
-				"name": "Almond Croissants (3pcs)",
-				"description": "Filled with sweet almond paste and topped with sliced almonds.",
-				"price": 19.00
-			},
-			{
 				"name": "Baked Cookie",
 				"description": "Following offerings: Strawberry Oreo S'more, white chocolate, macadamia, strawberry powder, strawberry Oreo, marshmallow, freeze-dried strawberries.",
 				"price": 5.50
@@ -69,21 +64,6 @@
 				"name": "Honey Butter Croissant",
 				"description": "Buttery, flaky perfection meets the sweet warmth of honey.",
 				"price": 4.95
-			},
-			{
-				"name": "Honey Butter Croissant (3pcs)",
-				"description": "Buttery, flaky perfection meets the sweet warmth of honey. Times three.",
-				"price": 13.00
-			},
-			{
-				"name": "Assorted Croissants (6pcs)",
-				"description": "Honey butter croissant 2pcs, Almond croissants 2pcs, Mocha croissant 1pcs, Flat croissant 1pcs.",
-				"price": 34.00
-			},
-			{
-				"name": "Assorted New York roll (4pcs)",
-				"description": "Rolled croissant filled with flavored custard. The more the merrier!",
-				"price": 39.00
 			},
 			{
 				"name": "Tiramisu",
@@ -309,11 +289,6 @@
 				"name": "Mugwort Injeolmi Scone",
 				"description": "Mugwort powder, Red bean, Injeolmi powder, Fresh cream, Mascarpone.",
 				"price": 8.45
-			},
-			{
-				"name": "Four Assorted Scones",
-				"description": "",
-				"price": 32.00
 			}
 		]
 	}
