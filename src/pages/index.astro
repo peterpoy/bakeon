@@ -21,16 +21,52 @@ import DecorativeImage from "~/assets/images/baked-goods-landscape.jpeg";
 import BakeOnLogo from "~/assets/images/bake-on-logo.png";
 import BakeOnSandwiches from "~/assets/images/bake-on-sandwiches.jpg";
 import AutumnSpecial from "~/assets/images/2025_autumn_drinks_01.jpg";
+import oooNewBaby from "~/assets/images/ooo-new-baby.jpg";
 import YelpButton from "~/components/YelpButton.astro";
 ---
 
 <Layout title="Home" pageTitle="Bake On" description="Welcome to our cafe!">
-	<dialog id="dialog-info" open>
-		<p>Greetings, one and all!</p>
-		<form method="dialog">
-			<button>OK</button>
-		</form>
-	</dialog>
+	<sl-dialog label="We're Taking a Short Break!" class="dialog-overview" open>
+		<div class="announcement-dialog">
+			<h1>We’re Taking a Short Break <span class="heart">♥</span></h1>
+			<p class="subtitle">A little rest for a beautiful reason.</p>
+
+			<div class="icon">👶</div>
+
+			<h2>Our family is welcoming<br />a new baby!</h2>
+
+			<p>
+				We’ll be taking a short break to cherish this special moment
+				together.
+			</p>
+
+			<p class="dates">
+				<strong>Closed:</strong> Friday, November 7th - Tuesday, November
+				11th<br />
+				<strong>Reopening:</strong> Wednesday, November 12th
+			</p>
+
+			<p class="message">
+				Thank you so much for your warm support and for being part of
+				our <strong>BAKE ON</strong> journey.<br />
+				We'll miss seeing your smiles for a few days, but we can't wait to
+				return with full hearts<br />
+				(and maybe a few extra smiles)!
+			</p>
+
+			<p class="signature">
+				With love,<br />
+				<strong>The BAKE ON Family</strong>
+			</p>
+		</div>
+		<sl-button slot="footer" variant="primary">Close</sl-button>
+	</sl-dialog>
+	<script>
+		const dialog = document.querySelector(".dialog-overview");
+		const closeButton = dialog?.querySelector('sl-button[slot="footer"]');
+
+		closeButton?.addEventListener("click", () => dialog?.hide());
+	</script>
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div
