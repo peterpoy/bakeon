@@ -25,6 +25,12 @@ import YelpButton from "~/components/YelpButton.astro";
 ---
 
 <Layout title="Home" pageTitle="Bake On" description="Welcome to our cafe!">
+	<dialog id="dialog-info" open>
+		<p>Greetings, one and all!</p>
+		<form method="dialog">
+			<button>OK</button>
+		</form>
+	</dialog>
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div

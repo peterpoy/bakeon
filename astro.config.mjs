@@ -20,9 +20,6 @@ export default defineConfig({
     devToolbar: {
         enabled: false,
     },
-    experimental: {
-        svg: true,
-    },
     site: 'https://bakeon.ca/',
     trailingSlash: "always",
 });
