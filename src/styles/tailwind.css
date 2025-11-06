@@ -247,3 +247,71 @@ label {
 		transform: translate(-8px, -8px);
 	}
 }
+
+#dialog-info {
+	position:absolute;
+	top: 40%;
+}
+
+
+.announcement-dialog {
+  background-color: #f7ead7;
+  color: #4b2e17;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  padding: 40px 25px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-dialog h1 {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+.announcement-dialog .heart {
+  color: #e6a837;
+  font-size: 1.2em;
+}
+
+.announcement-dialog .subtitle {
+  font-style: italic;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+
+.announcement-dialog .icon {
+  font-size: 2.5em;
+  margin: 10px 0 20px;
+}
+
+.announcement-dialog h2 {
+  font-size: 1.6em;
+  font-weight: 700;
+  margin-bottom: 0.8em;
+}
+
+.announcement-dialog p {
+  line-height: 1.6;
+  font-size: 1.05em;
+  margin: 0.8em 0;
+}
+
+.announcement-dialog .dates {
+  margin: 1.5em 0;
+  font-size: 1.1em;
+}
+
+.announcement-dialog .message {
+  font-size: 1em;
+  margin-top: 1.5em;
+}
+
+.announcement-dialog .signature {
+  margin-top: 2em;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.3em;
+}
