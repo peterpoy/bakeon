@@ -5,23 +5,6 @@ const plates = await getCollection("plates");
 const siteLangFormat = siteLang.replace("_", "-");
 ---
 
-<!-- Quick Nav -->
-<div class="mb-20 sticky top-8 z-10">
-	<nav class="bg-brand-green text-white rounded-full max-w-5xl mx-auto swiper-plates w-full">
-		<ul id="plate-nav" class="px-6 py-3 swiper-wrapper h-auto w-auto">
-			{
-				plates.map((plate: any) => (
-					<li class="swiper-slide !w-max">
-						<a href={`#${plate.data.slug}`} class="font-medium select-none">
-							{plate.data.prettyName}
-						</a>
-					</li>
-				))
-			}
-		</ul>
-	</nav>
-</div>
-
 <div class="grid grid-cols-1 gap-y-32">
 	{
 		plates.map((plate: any) => (
