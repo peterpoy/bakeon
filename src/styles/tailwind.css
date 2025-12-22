@@ -300,6 +300,24 @@ label {
   margin: 0.8em 0;
 }
 
+@media (max-width: 699px) {
+	.announcement-dialog p {
+		font-size: 0.75em;
+	}
+}
+
+@media (max-width: 601px) {
+	.announcement-dialog h1 {
+		display: none;
+	}
+	.announcement-dialog .subtitle {
+		display: none;
+	}
+	#title.dialog__title {
+		display: none !important;
+	}
+}
+
 .announcement-dialog .dates {
   margin: 1.5em 0;
   font-size: 1.1em;
@@ -314,4 +332,43 @@ label {
   margin-top: 2em;
   font-family: 'Brush Script MT', cursive;
   font-size: 1.3em;
+}
+
+.hours-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+
+.hours-list .row {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.95rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.hours-list .row strong {
+  text-align: right;
+}
+
+.hours-list .row.closed strong {
+  color: #b00020;
+}
+
+
+@media (max-width: 460px) {
+  .hours-list .row {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .hours-list .row strong {
+    text-align: left;
+    margin-top: 0.25rem;
+  }
 }
