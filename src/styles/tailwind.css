@@ -328,12 +328,6 @@ label {
   margin-top: 1.5em;
 }
 
-.announcement-dialog .signature {
-  margin-top: 2em;
-  font-family: 'Brush Script MT', cursive;
-  font-size: 1.3em;
-}
-
 .hours-list {
   display: flex;
   flex-direction: column;
