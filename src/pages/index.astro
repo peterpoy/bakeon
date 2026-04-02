@@ -3,7 +3,7 @@ import AnnoucementDialog from "~/components/dialog.astro";
 import Layout from "~/layouts/Layout.astro";
 import Section from "~/components/Section.astro";
 import Hero from "~/components/Hero.astro";
-import { Picture, Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import Badge from "~/components/Badge.astro";
 import Button from "~/components/Button.astro";
 import ButtonCallUs from "~/components/ButtonCallUs.astro";
@@ -21,12 +21,12 @@ import AlmondCroissant from "~/assets/images/almond-croissant.jpeg";
 import DecorativeImage from "~/assets/images/baked-goods-landscape.jpeg";
 import BakeOnLogo from "~/assets/images/bake-on-logo.png";
 import BakeOnSandwiches from "~/assets/images/bake-on-sandwiches.jpg";
-import AutumnSpecial from "~/assets/images/2025_autumn_drinks_01.jpg";
-import oooNewBaby from "~/assets/images/ooo-new-baby.jpg";
+import SpringSpecial from "~/assets/images/2026_spring_drinks_01.jpg";
 import YelpButton from "~/components/YelpButton.astro";
 ---
 
 <Layout title="Home" pageTitle="Bake On" description="Welcome to our cafe!">
+	<AnnoucementDialog/>
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div
@@ -162,42 +162,33 @@ import YelpButton from "~/components/YelpButton.astro";
 				id="specials"
 			>
 				<Badge color="green" title="specials" />
-				<h2 class="font-black h2 my-4">Hello AUTUMN</h2>
+				<h2 class="font-black h2 my-4">Spring specials</h2>
 
 				<span class="text-brand-green text-2xl font-bold italic"
-					>Autumn your day!</span
+					>Two new ways to fall in love with Chai 🤎✨</span
 				>
 
-				<p>🍂 Hello BAKE ON family 🧸</p>
+				<p>☕ Hello BAKE ON family 🧸</p>
 				<p>
-					Our fall menu has finally arrived‼️ Now that summer has
-					passed and the crisp autumn breeze is here, why not enjoy it
-					with our new seasonal drinks?
+					Our newest Chai creations are here! Two moods, one cozy obsession —
+					a little vanilla dream or an espresso kick.. which one are you choosing? 😌
 					<li style="list-style: none;">
-						1️⃣ Nutella & Hazelnut Cream Latte
+						⚡️ Dirty Chai – Bold with that espresso kick
 					</li>
 					<li style="list-style: none;">
-						2️⃣ Banana-flavored Cream Matcha
+						☁️ Vanilla Cream Chai Latte – Dreamy cloud-like sweetness
 					</li>
-					<li style="list-style: none;">
-						3️⃣ Macadamia Oat Latte – the nutty must-have of fall ✨
-					</li>
-
-					Lovingly crafted, just for you 🍁🍁
+					Lovingly crafted, just for you 🍵
 				</p>
 
 				<div class="mt-8">
-					<Button
-						color="red"
-						url="https://www.ubereats.com/ca/store/bake-on/lDGUq6zwVQaXi_zM81_gMw/7aceabe0-f62c-504b-b19d-3e74a2df8bab/6a1601a1-afdf-46fd-932b-610498967db5/2e39af0a-2905-4234-9bda-c5844c4cf14f"
-						target="_blank">Order Now!</Button
-					>
+					<p>Order in Store!</p>
 				</div>
 			</div>
 			<div slot="hero-content-right">
 				<Picture
 					class:list={"mx-auto"}
-					src={AutumnSpecial}
+					src={SpringSpecial}
 					height={600}
 					formats={["avif", "webp"]}
 					alt="Delicious Christmas Cakes."
@@ -327,11 +318,11 @@ import YelpButton from "~/components/YelpButton.astro";
 				<div slot="heading-content">
 					<table>
 						<tr><th>Sunday</th><td>Closed</td></tr>
-						<tr><th>Monday</th><td>7am - 4pm</td></tr>
+						<tr><th>Monday (Easter Monday)</th><td>Closed</td></tr>
 						<tr><th>Tuesday</th><td>7am - 4pm</td></tr>
 						<tr><th>Wednesday</th><td>7am - 4pm</td></tr>
 						<tr><th>Thursday</th><td>7am - 4pm</td></tr>
-						<tr><th>Friday</th><td>7am - 4pm</td></tr>
+						<tr><th>Friday (Good Friday)</th><td>7am - 4pm</td></tr>
 						<tr><th>Saturday</th><td>9am - 5pm</td></tr>
 					</table>
 					<p>
